@@ -8,6 +8,60 @@ argument-hint: "Path to the folder to push (defaults to current workspace)"
 
 Initialize a local directory as a git repository, create a GitHub remote via `gh`, and push — handling all common Windows friction points automatically.
 
+---
+
+## Repo Naming & Folder Placement Convention
+
+Every repo **must** follow the tiered naming convention before being initialized:
+
+### Format
+
+```
+t{tier}-{tech-slug}-{project-name}
+```
+
+- **tier** — numeric tier matching the owner's profile expertise level (1, 2, or 3)
+- **tech-slug** — lowercase hyphenated identifier for the primary technology (see table below)
+- **project-name** — short kebab-case description of the project
+
+### Examples
+
+```
+t1-python-daemon-git
+t1-unity-hrsim
+t2-js-hell-love-tcb
+t2-godot-project-wildcard
+```
+
+### Tier → Tech Slug Reference
+
+| Tier | Tech slugs |
+|------|-----------|
+| **t1** — Primary Focus | `python`, `csharp`, `unity`, `blender`, `godot`, `mcp`, `stable-diffusion` |
+| **t2** — Building Experience | `js`, `unreal`, `ros`, `html` |
+| **t3** — Exploring | `ethereum`, `raspberry-pi`, `stm32` |
+
+### Folder Location
+
+All repos live directly under `D:\boycececil666gmailcom\`:
+
+```
+D:\boycececil666gmailcom\t1-python-daemon-git\
+D:\boycececil666gmailcom\t2-js-hell-love-tcb\
+```
+
+### Pre-Init Checklist
+
+Before running `git init`, **verify**:
+
+1. The folder name matches `t{tier}-{tech-slug}-{project-name}` exactly.
+2. The folder is located at `D:\boycececil666gmailcom\{repo-name}\`.
+3. The GitHub repo name will be identical to the folder name (no rename after push).
+
+If the user provides a project name that doesn't follow this pattern, **prompt them to confirm the correct tier and tech slug** before proceeding.
+
+---
+
 ## Prerequisites
 
 - `git` installed (`winget install --id Git.Git -e`)
