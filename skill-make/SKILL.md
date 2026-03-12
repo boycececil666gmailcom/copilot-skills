@@ -1,5 +1,5 @@
 ---
-name: make-skill
+name: skill-make
 description: "Create a new VS Code Copilot skill file with the correct category prefix. Use when: creating a skill, adding a skill, make skill, new skill, scaffold skill. Applies a category prefix (python-, git-, web-, data-, test-, infra-, ai-, util-, cli-, db-, profile-) based on the skill's purpose."
 argument-hint: "Describe the skill you want to create"
 ---

@@ -1,5 +1,5 @@
 ---
-name: cli-system-install
+name: system-install
 description: "Install any program or package using the best available method. Use when: install app, install package, install tool, system install, download and install, get program. Tries winget → choco/scoop → npm/pip/cargo → GitHub search → official site HTTP download automatically."
 argument-hint: "Name of the app or package to install (e.g. 'ffmpeg', 'node', 'docker')"
 ---
