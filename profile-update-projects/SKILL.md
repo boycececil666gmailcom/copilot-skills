@@ -173,7 +173,15 @@ Select-String -Path "d:\boycececil666gmailcom\boycececil666gmailcom\README.md" -
 
 ---
 
-## Step 8 — Write, Commit, and Push
+## Step 8 — Update Core Expertise ABC Metrics
+
+If the newly added project belongs to a technology explicitly listed in the `## Core Expertise — *by depth of practice*` section (e.g., Python, C#, Unity, React, etc.), you must update its corresponding row in the ABC format table:
+
+*   **A (Achievement):** Check if the new project expands the scope of achievements, and add a brief descriptor if applicable.
+*   **B (Backed By):** Increment the metric/count for the number of projects (e.g., change "1 shipped game demo" to "2 shipped game demos").
+*   **C (Came From):** Add a concise mention of the new project's name or domain to the end of the list.
+
+## Step 9 — Write, Commit, and Push
 
 1. Apply the edit to the README (use file editing tools — do not use `echo` redirects).
 2. From the profile repo directory:
